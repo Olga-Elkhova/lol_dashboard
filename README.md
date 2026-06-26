@@ -177,6 +177,17 @@ avg_assists: 12.21
 git clone https://github.com/Olga-Elkhova/lol_dashboard.git
 cd lol_dashboard
 
+### 2. Создание виртуального окружения
+
+**Windows**
+
+python -m venv venv
+
+venv\Scripts\activate
+
+**Mac/Linux**
+python3 -m venv venv
+
 ### 2. Установка зависимостей
 
 pip install -r requirements.txt
